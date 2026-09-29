@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isakson Apps</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container header-inner">
+            <a href="index.html" class="logo">Isakson<span>Apps</span></a>
+            <nav>
+                <a href="index.html" data-bs="Početna" data-en="Home">Početna</a>
+                <a href="igra.html" data-bs="Igra" data-en="Game">Igra</a>
+                <div class="lang-switch">
+                    <button onclick="setLang('bs')" id="btn-bs" class="active">BS</button>
+                    <button onclick="setLang('en')" id="btn-en">EN</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container">
+            <h1 data-bs="Moje aplikacije" data-en="My Apps">Moje aplikacije</h1>
+            <p data-bs="Aplikacije koje razvijam za Android" data-en="Apps I develop for Android">
+                Aplikacije koje razvijam za Android
+            </p>
+        </div>
+    </section>
+
+    <!-- APLIKACIJE -->
+    <section class="apps">
+        <div class="container">
+            <h2 data-bs="Objavljene aplikacije" data-en="Published Apps">Objavljene aplikacije</h2>
+
+            <div class="app-grid">
+
+                <!-- ====== APLIKACIJA 1: Oglasiba ====== -->
+                <div class="app-card">
+                    <!-- ZAMIJENI OVO SA SVOJOM SLIKOM: img/oglasiba.png -->
+                    <img src="img/placeholder.png" alt="Oglasiba" class="app-icon">
+                    <h3>Oglasiba</h3>
+                    <p data-bs="Platforma za objavljivanje i pregled oglasa u BiH."
+                       data-en="Platform for publishing and viewing ads in BiH.">
+                        Platforma za objavljivanje i pregled oglasa u BiH.
+                    </p>
+                    <a href="https://play.google.com/store/apps/details?id=com.kupoprodaja.oglasibih"
+                       target="_blank" class="btn">Google Play</a>
+                </div>
+
+                <!-- ====== APLIKACIJA 2: Kuran Korkut ====== -->
+                <div class="app-card">
+                    <!-- ZAMIJENI: img/kuran.png -->
+                    <img src="img/placeholder.png" alt="Kuran Korkut Audio" class="app-icon">
+                    <h3>Kuran Korkut Audio</h3>
+                    <p data-bs="Cijeli Kur'an na bosanskom jeziku uz prijevod Besima Korkuta."
+                       data-en="The entire Qur'an in Bosnian with Besim Korkut translation.">
+                        Cijeli Kur'an na bosanskom jeziku uz prijevod Besima Korkuta.
+                    </p>
+                    <a href="https://play.google.com/store/apps/details?id=com.bismila.kurankorkutaudio"
+                       target="_blank" class="btn">Google Play</a>
+                </div>
+
+                <!-- ====== APLIKACIJA 3: CashCon ====== -->
+                <div class="app-card">
+                    <!-- ZAMIJENI: img/cashcon.png -->
+                    <img src="img/placeholder.png" alt="CashCon" class="app-icon">
+                    <h3>CashCon</h3>
+                    <p data-bs="Glasovni podsjetnici — kaži i ostaje zapisano."
+                       data-en="Voice reminders — say it and it stays recorded.">
+                        Glasovni podsjetnici — kaži i ostaje zapisano.
+                    </p>
+                    <a href="https://play.google.com/store/apps/details?id=com.sence.cashcon"
+                       target="_blank" class="btn">Google Play</a>
+                </div>
+
+            </div>
+
+            <!-- ====== USKORO / TESTNA FAZA ====== -->
+            <h2 style="margin-top:60px;" data-bs="Uskoro" data-en="Coming Soon">Uskoro</h2>
+
+            <div class="app-grid">
+
+                <!-- ====== IGRA / NOVA APP ====== -->
+                <div class="app-card app-coming">
+                    <!-- ZAMIJENI: img/igra.png -->
+                    <img src="img/placeholder.png" alt="Igra" class="app-icon">
+                    <span class="badge" data-bs="U testu" data-en="In Test">U testu</span>
+                    <h3 data-bs="Naziv igre" data-en="Game Name">Naziv igre</h3>
+                    <p data-bs="Ovdje dodaj kratak opis igre."
+                       data-en="Add a short description here.">
+                        Ovdje dodaj kratak opis igre.
+                    </p>
+                    <a href="igra.html" class="btn btn-outline" data-bs="Detalji" data-en="Details">Detalji</a>
+                </div>
+
+                <!-- Ovdje možeš dodati još "Uskoro" kartica kopiranjem gornjeg bloka -->
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Isakson Apps</p>
+            <p>
+                <a href="mailto:senaidlav@gmail.com">senaidlav@gmail.com</a> ·
+                <a href="https://github.com/senaidlav-design" target="_blank">GitHub</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

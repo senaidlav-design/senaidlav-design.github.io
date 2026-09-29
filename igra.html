@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igra — Isakson Apps</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container header-inner">
+            <a href="index.html" class="logo">Isakson<span>Apps</span></a>
+            <nav>
+                <a href="index.html" data-bs="Početna" data-en="Home">Početna</a>
+                <a href="igra.html" data-bs="Igra" data-en="Game">Igra</a>
+                <div class="lang-switch">
+                    <button onclick="setLang('bs')" id="btn-bs" class="active">BS</button>
+                    <button onclick="setLang('en')" id="btn-en">EN</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1 data-bs="Naziv igre" data-en="Game Name">Naziv igre</h1>
+            <span class="badge badge-large" data-bs="U testnoj fazi" data-en="In Testing">U testnoj fazi</span>
+        </div>
+    </section>
+
+    <section class="app-detail">
+        <div class="container">
+
+            <!-- SLIKA IGRE — ZAMIJENI -->
+            <img src="img/placeholder.png" alt="Igra" class="detail-img">
+
+            <!-- OPIS — DODAJ SVOJ TEKST -->
+            <p class="detail-desc" data-bs="Ovdje dodaj opis igre..."
+               data-en="Add game description here...">
+                Ovdje dodaj opis igre...
+            </p>
+
+            <!-- PRIVACY POLICY DUGME — PLAVO -->
+            <div class="privacy-box">
+                <h3 data-bs="Privacy Policy" data-en="Privacy Policy">Privacy Policy</h3>
+                <p data-bs="Pročitaj pravila privatnosti za ovu aplikaciju."
+                   data-en="Read the privacy policy for this app.">
+                    Pročitaj pravila privatnosti za ovu aplikaciju.
+                </p>
+                <a href="privacy-policy.html" class="btn btn-privacy"
+                   data-bs="📄 Otvori Privacy Policy" data-en="📄 Open Privacy Policy">
+                    📄 Otvori Privacy Policy
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Isakson Apps</p>
+            <p>
+                <a href="mailto:senaidlav@gmail.com">senaidlav@gmail.com</a> ·
+                <a href="https://github.com/senaidlav-design" target="_blank">GitHub</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
